@@ -1,0 +1,31 @@
+{
+  "name": "vite-plugin-purgecss-v2",
+  "version": "0.0.1",
+  "description": "tree shaking css",
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuihaoweb/vite-plugin-purgecss.git"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "purgecss",
+    "tree shaking",
+    "css"
+  ],
+  "author": "cuihaoweb",
+  "bugs": {
+    "url": "https://github.com/cuihaoweb/vite-plugin-purgecss/issues"
+  },
+  "homepage": "https://github.com/cuihaoweb/vite-plugin-purgecss#readme",
+  "files": [
+    "index.js",
+    "./README*"
+  ],
+  "scripts": {
+    "publish:alpha": "sudo npm i && npm publish --tag=alpha",
+    "publish:online": "sudo npm i && npm publish"
+  }
+}
