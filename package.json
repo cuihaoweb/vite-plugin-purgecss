@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-purgecss-v2",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "tree shaking css",
   "type": "module",
   "main": "index.js",
@@ -27,5 +27,8 @@
   "scripts": {
     "publish:alpha": "sudo npm i && npm publish --tag=alpha",
     "publish:online": "sudo npm i && npm publish"
+  },
+  "dependencies": {
+    "purgecss": "^5.0.0"
   }
 }
